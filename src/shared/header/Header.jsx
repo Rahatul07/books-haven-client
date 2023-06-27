@@ -32,12 +32,15 @@ const Header = () => {
         </div>
       </div>
       <div className="w-8/12 my-5 mx-auto md:mx-10 md:w-full">
-        <img src={logo} alt="" className="w-60 mx-auto font-" />
+        <img src={logo} alt="" className="w-80 mx-auto font-" />
       </div>
       <div className=" w-8/12 md:w-full mx-auto ">
         <div className="flex my-5 items-center justify-center">
-          <div>
+          <div className="relative">
             <FaShoppingCart className="text-4xl text-gray-600 mr-3" />
+            <div className="bg-primary w-8 h-8 rounded-full flex mx-auto justify-center items-center text-white font-bold text-xl absolute top-5 -right-0">
+              2
+            </div>
           </div>
           <h1 className="text-2xl text-gray-600 font-bold"> My Cart</h1>
         </div>
